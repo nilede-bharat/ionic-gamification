@@ -1,18 +1,27 @@
 {
   "name": "ionic-gamification-test",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "testing ionic gamification",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "test"
+    "ionic-gamification",
+    "gamification"
   ],
   "peerDependencies": {
     "aes-everywhere": "^1.0.0",
     "base-64": "^1.0.0"
   },
   "author": "bharat kathore",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nilede-bharat/ionic-gamification.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nilede-bharat/ionic-gamification/issues"
+  },
+  "homepage": "https://github.com/nilede-bharat/ionic-gamification#readme"
 }

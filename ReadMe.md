@@ -7,7 +7,7 @@ this package provide rewards integration of any existing system to integrate rew
 You can install this package using npm:
 
 ```bash
-npm i gamification-react-test1 
+npm i ionic-gamification-test
 ```
 
 ## Usage
@@ -32,6 +32,8 @@ const config = {
   utm_param2 :'' // optional parameters 
   utm_param3 :'' // optional parameters 
   utm_param4 :'' // optional parameters 
+  style: {height: '100vh'} // optional parameters you can pass styles here height,width,left,zIndex,top
+  
 };
 Gamification.init(config);
 ```
@@ -129,5 +131,6 @@ also you can pass another optional parameters <br>
 2.utm_param2 <br>
 3.utm_param3 <br>
 s4.utm_param4 <br>
+style: {height: '100vh'} // optional parameters you can pass styles here height,width,left,zIndex,top<br>
 
 for example
